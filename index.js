@@ -12,7 +12,8 @@ $(function () {
 
 function showProfilePageAndSaveResults(sender) {
     const profile = determineProfile(sender.data);
-    alert(JSON.stringify(profile));
+    showProfilePage(profile);
+    // alert(JSON.stringify(profile));
 };
 
 function determineProfile(data) {
@@ -42,23 +43,24 @@ function determineProfile(data) {
     return profile + '-' + profileType;
 }
 
-function showProfilePage(profile) {
+function showProfilePage(profileAndType) {
+    const profile = profileAndType.split('-')[0];
+    const profileType = profileAndType.split('-')[1];
+
     // Show the profile
-    // ...
+    $.ajax({
+        url: 'profile.html',
+        dataType: 'html',
+        success: function (data) {
+            $('#surveyContainer').html('');
+            $('#profileTitle').html("<h1>Profil Missionnaire : " + profiles[profile]['name'].toUpperCase() + " - Type " + profileType.toUpperCase() + "</h1>");
+            $('#profileDescription').html("<p>" + profiles[profile]['description'] + "</p>");
+            $('#profileStrength').html("<h2>Traits majeurs de son caractère</h2><ul><li>" + profiles[profile]['strength'].join('</li><li>') + "</li></ul>");
+            $('#profileWeakness').html("<h2>Défis majeurs</h2><ul><li>" + profiles[profile]['weakness'].join('</li><li>') + "</li></ul>");
+        }
+    });
 }
 function saveProfileResults(url, json) {
     // Save the results to the server
     // ...
 }
-// function saveSurveyResults(url, json) {
-//     const request = new XMLHttpRequest();
-//     request.open('POST', url);
-//     request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-//     request.addEventListener('load', () => {
-//         // Handle "load"
-//     });
-//     request.addEventListener('error', () => {
-//         // Handle "error"
-//     });
-//     request.send(JSON.stringify(json));
-// }
