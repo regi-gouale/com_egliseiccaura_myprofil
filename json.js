@@ -166,26 +166,26 @@ const questions = [
             choices: choices,
         }]
     },
-    {
-        elements: [{
-            type: questionType,
-            name: 'gagneurAmes-2',
-            title: { fr: 'Lorsque je participe à une évangélisation, il n\'est pas rare que je sois témoin de "signes et prodiges" de Dieu dans la vie de ceux qui sont présents.' },
-            isRequired: true,
-            choices: choices,
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'gagneurAmes-2',
+    //         title: { fr: 'Lorsque je participe à une évangélisation, il n\'est pas rare que je sois témoin de "signes et prodiges" de Dieu dans la vie de ceux qui sont présents.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'gagneurAmes-3',
-            title: { fr: 'Lorsque je me retrouve "seul contre tous", je me sens particulièrement stimulé dans l\'évangélisation.' },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'gagneurAmes-3',
+    //         title: { fr: 'Lorsque je me retrouve "seul contre tous", je me sens particulièrement stimulé dans l\'évangélisation.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
+    //     }]
+    // },
     // {
     //     elements: [{
     //         type: questionType,
@@ -406,36 +406,36 @@ const questions = [
     //         
     //     }]
     // },
-    {
-        elements: [{
-            type: questionType,
-            name: 'transformateurAmes-1',
-            title: { fr: 'Lorsque j\'évangélise, j\'aime rapporter comment Dieu a totalement changé mon histoire, pour montrer que la transformation commence par une rencontre d\'amour avec Dieu.' },
-            isRequired: true,
-            choices: choices,
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'transformateurAmes-1',
+    //         title: { fr: 'Lorsque j\'évangélise, j\'aime rapporter comment Dieu a totalement changé mon histoire, pour montrer que la transformation commence par une rencontre d\'amour avec Dieu.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'transformateurAmes-2',
-            title: { fr: 'Je suis sensible à ceux qui souffrent à cause de leur péché, je désire les conduire au pardon de Dieu.' },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'transformateurAmes-2',
+    //         title: { fr: 'Je suis sensible à ceux qui souffrent à cause de leur péché, je désire les conduire au pardon de Dieu.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'transformateurAmes-3',
-            title: { fr: 'Je ne crains pas de témoigner de mes faiblesses que Jésus vient porter, guérir, transformer ou sauver.' },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'transformateurAmes-3',
+    //         title: { fr: 'Je ne crains pas de témoigner de mes faiblesses que Jésus vient porter, guérir, transformer ou sauver.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
+    //     }]
+    // },
     // {
     //     elements: [{
     //         type: questionType,
@@ -706,36 +706,36 @@ const questions = [
     //         
     //     }]
     // },
-    {
-        elements: [{
-            type: questionType,
-            name: 'coordinateurMission-1',
-            title: { fr: 'Dans le cadre de la mission, je souhaite avoir des fonctions bien déterminées en vue de mettre à l’épreuve de nouvelles idées.' },
-            isRequired: true,
-            choices: choices,
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'coordinateurMission-1',
+    //         title: { fr: 'Dans le cadre de la mission, je souhaite avoir des fonctions bien déterminées en vue de mettre à l’épreuve de nouvelles idées.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'coordinateurMission-2',
-            title: { fr: 'En évangélisation, j\'utilise des formules, des images et des exemples qui percutent.' },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'coordinateurMission-2',
+    //         title: { fr: 'En évangélisation, j\'utilise des formules, des images et des exemples qui percutent.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'coordinateurMission-3',
-            title: { fr: 'J\'évangélise avant tout les personnes de mon entourage : collègues, amis, voisins ou famille.' },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'coordinateurMission-3',
+    //         title: { fr: 'J\'évangélise avant tout les personnes de mon entourage : collègues, amis, voisins ou famille.' },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
+    //     }]
+    // },
     // {
     //     elements: [{
     //         type: questionType,
@@ -966,36 +966,36 @@ const questions = [
     //         
     //     }]
     // },
-    {
-        elements: [{
-            type: questionType,
-            name: 'manifestateurCompassion-1',
-            title: { fr: `J'aime évangéliser les personnes blessées ou éloignées de Dieu pour leur annoncer Son amour et Sa compassion pour chacun.` },
-            isRequired: true,
-            choices: choices,
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'manifestateurCompassion-1',
+    //         title: { fr: `J'aime évangéliser les personnes blessées ou éloignées de Dieu pour leur annoncer Son amour et Sa compassion pour chacun.` },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'manifestateurCompassion-2',
-            title: { fr: `Je veille à ce que les non-croyants et les personnes extérieures à la communauté chrétienne soient très bien accueillies.` },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'manifestateurCompassion-2',
+    //         title: { fr: `Je veille à ce que les non-croyants et les personnes extérieures à la communauté chrétienne soient très bien accueillies.` },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
-    {
-        elements: [{
-            type: questionType,
-            name: 'manifestateurCompassion-3',
-            title: { fr: `Quand je rencontre des personnes vivant le type de galères ou d'épreuves que je vivais avant de rencontrer Jésus, je leur témoigne de ce qui m'est arrivé grâce à Lui.` },
-            isRequired: true,
-            choices: choices,
+    //     }]
+    // },
+    // {
+    //     elements: [{
+    //         type: questionType,
+    //         name: 'manifestateurCompassion-3',
+    //         title: { fr: `Quand je rencontre des personnes vivant le type de galères ou d'épreuves que je vivais avant de rencontrer Jésus, je leur témoigne de ce qui m'est arrivé grâce à Lui.` },
+    //         isRequired: true,
+    //         choices: choices,
 
-        }]
-    },
+    //     }]
+    // },
     // {
     //     elements: [{
     //         type: questionType,

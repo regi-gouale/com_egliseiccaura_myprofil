@@ -1,6 +1,6 @@
+// import db from './firebaseConf.js';
 
 const survey = new Survey.Model(surveyJson);
-
 
 survey.locale = "fr";
 
@@ -13,6 +13,7 @@ $(function () {
 function showProfilePageAndSaveResults(sender) {
     const profile = determineProfile(sender.data);
     showProfilePage(profile);
+    saveProfileResults(sender.data, profile);
     // alert(JSON.stringify(profile));
 };
 
@@ -60,7 +61,31 @@ function showProfilePage(profileAndType) {
         }
     });
 }
-function saveProfileResults(url, json) {
-    // Save the results to the server
-    // ...
+function saveProfileResults(data, profileAndType) {
+    const profile = profileAndType.split('-')[0];
+    const profileType = profileAndType.split('-')[1];
+    // Save the results to firebase
+    const db = window.db;
+    const collection = window.collection;
+    const addDoc = window.addDoc;
+    const uuid = uuidv4();
+
+    try {
+        const docRef = addDoc(collection(db, "profiles"), {
+            id: uuid,
+            profile: profile,
+            profileType: profileType,
+            username: data.username,
+            email: data.email,
+        });
+        console.log("Document written with ID: ", docRef.id);
+    }catch (e) {
+        console.error("Error adding document: ", e);
+    }
 }
+
+function uuidv4() {
+    return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+      (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+    );
+  }
