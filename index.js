@@ -1,5 +1,6 @@
 
 const survey = new Survey.Model(surveyJson);
+
 function alertResults(sender) {
     alert(JSON.stringify(sender.data));
 };
