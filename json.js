@@ -8,6 +8,36 @@ const choices = [
 
 const questionType = 'radiogroup';
 
+let profiles = {
+    transformateurAmes: {
+        points: 0,
+        nbQuestions: 30,
+    },
+    manifestateurCompassion: {
+        points: 0,
+        nbQuestions: 25,
+    },
+    coordinateurMission: {
+        points: 0,
+        nbQuestions: 26,
+    },
+    gagneurAmes: {
+        points: 0,
+        nbQuestions: 25,
+    },
+}
+
+let profileTypes = {
+    itinerant: {
+        points: 0,
+        nbQuestions: 5,
+    },
+    sedentaire: {
+        points: 0,
+        nbQuestions: 5,
+    },
+}
+
 const firstPage = {
     elements: [{
         type: 'html',
@@ -1201,6 +1231,7 @@ const surveyJson = {
     showProgressBar: 'top',
     showTimerPanel: 'bottom',
     showTimerPanelMode: 'all',
+    showCompletedPage: false,
 
     firstPageIsStarted: true,
     startSurveyText: { fr: 'Découvrir mon profil' },
@@ -1213,7 +1244,6 @@ const surveyJson = {
     maxTimeToFinishPage: 15,
     maxTimeToFinish: 15 * questions.length,
     pages: pages,
-
 };
 
 function shuffle(array) {
