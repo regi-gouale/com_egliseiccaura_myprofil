@@ -88,8 +88,8 @@ let profiles = {
     gagneurAmes: {
         points: 0,
         nbQuestions: 25,
-        name: "Gagneur d'âmes",
-        description: "Le profil « gagneur d’âmes » est un profil de type conquérant. Il est engagé dans la prise de territoire. Il évangélise et cherche à rassembler tous les croyants et les incroyants sous la bannière de Christ. Ce profil n’aime pas la routine. Son focus premier c’est la conquête du territoire, l’expansion et l’implantation des églises. Son focus secondaire c’est la stabilité des âmes.",
+        name: "Éclaireur",
+        description: "Le profil « éclaireur » est un profil de type conquérant. Il est engagé dans la prise de territoire. Il évangélise et cherche à rassembler tous les croyants et les incroyants sous la bannière de Christ. Ce profil n’aime pas la routine. Son focus premier c’est la conquête du territoire, l’expansion et l’implantation des églises. Son focus secondaire c’est la stabilité des âmes.",
         strength: [
             "Il a tendance à s’affirmer, à être au-devant de la scène par son caractère de fonceur. Ce qui lui donne une forme d’ascendance morale dans le groupe => Actes 1.15 / Actes 2.14 / Actes 4.8 / Actes 5.29",
             "C’est un homme d’action et de terrain=> Actes11.26 / Actes 13.13 /Actes 13.14 /Actes 14.6",
@@ -114,7 +114,7 @@ let profiles = {
             "Apprendre à écouter et comprendre les autres lui sera d’une grande aide car on ne réussit pas seule.  Il doit apprendre à rendre compte « avec humilité et respect »",
             "Il doit rester centré sur le message recommandé.",
             "Avoir une attitude humble, ne pas tomber dans l'arrogance ou la supériorité, Développer l'aspect relationnel pour compenser le volet-enseignant : illustrer par ses propos avec des faits vécus.",
-            "Le missionnaire « gagneur d’âme » est préoccupé par l’urgence de mettre en garde. Il peut s'attacher davantage à dénoncer les choses qu'à annoncer réellement l’Evangile.",
+            "Le missionnaire « éclaireur » est préoccupé par l’urgence de mettre en garde. Il peut s'attacher davantage à dénoncer les choses qu'à annoncer réellement l’Evangile.",
             "Il peut parfois donner l'impression d'être centré sur « la mission », plutôt que sur les âmes.",
             "Doit apprendre à déléguer et à s'appuyer sur le discernement de personnes bienveillantes placées autour de lui.",
             "Doit- être patient dans son rapport avec les autres (Paul et Marc)",
